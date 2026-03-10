@@ -48,10 +48,10 @@
     animation: float 5s ease-in-out infinite;
 }
 
-@theme {
-    --color-primary: #8b5cf6;
-    --color-primary-hover: #7c3aed;
-    --color-secondary: #ec4899;
+theme {
+    --color-primary: #14b8a6;        /* teal-500 */
+    --color-primary-hover: #0d9488;  /* teal-600 */
+    --color-secondary: #10b981;      /* emerald-500 */
     --color-dark-bg: #0f172a;
     --color-dark-card: #1e293b;
 }

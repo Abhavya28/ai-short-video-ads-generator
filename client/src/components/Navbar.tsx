@@ -1,8 +1,7 @@
-import { MenuIcon, XIcon } from 'lucide-react';
+import { BotMessageSquare, MenuIcon, XIcon } from 'lucide-react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { assets } from '../assets/assets';
 import { PrimaryButton } from './Buttons';
 
 export default function Navbar() {
@@ -23,8 +22,9 @@ export default function Navbar() {
             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
         >
             <div className='max-w-6xl mx-auto flex items-center justify-between bg-black/50 backdrop-blur-md border border-white/4 rounded-2xl p-3'>
-                <Link to='/' onClick={()=> scrollTo(0,0)}>
-                    <img src={assets.logo} alt="logo" className="h-8" />
+                <Link to='/' onClick={()=> scrollTo(0,0)} className='flex items-center gap-1'>
+                <BotMessageSquare size={28} />
+                    <p className='font-bold text-xl'>SnapAI</p>
                 </Link>
 
                 <div className='hidden md:flex items-center gap-8 text-sm font-medium text-gray-300'>
