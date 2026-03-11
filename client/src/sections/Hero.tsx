@@ -1,5 +1,5 @@
-import { ArrowRightIcon, PlayIcon } from "lucide-react";
-import { PrimaryButton, GhostButton } from "./Buttons";
+import { ArrowRightIcon, CheckIcon, PlayIcon, ZapIcon } from "lucide-react";
+import { PrimaryButton, GhostButton } from "../components/Buttons";
 
 export default function Hero() {
 
@@ -31,7 +31,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-black/70"></div>
 
                 {/* content */}
-                <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-32">
+                <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-16 mt-16">
 
                     {/* Community badge */}
                     <div className="flex items-center justify-center gap-3 p-1.5 pr-4 rounded-full border border-white/10 bg-white/10 mb-6 w-fit mx-auto">
@@ -69,7 +69,7 @@ export default function Hero() {
                     </p>
 
                     {/* Buttons */}
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
 
                         <PrimaryButton className="py-3 px-7 hover:scale-105 transition-transform">
                             Get started
@@ -81,6 +81,31 @@ export default function Hero() {
                             Watch demo
                         </GhostButton>
 
+                    </div>
+
+                    <div className="flex sm:inline-flex overflow-hidden items-center max-sm:justify-center text-sm text-gray-200 bg-white/10 rounded"
+                    >
+                        <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
+                            <ZapIcon className="size-4 text-sky-500" />
+                            <div>
+                                <div>Seconds to create</div>
+                                <div className="text-xs text-gray-400">
+                                    Optimized social formats
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="hidden sm:block h-6 w-px bg-white/6" />
+
+                        <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
+                            <CheckIcon className="size-4 text-cyan-500" />
+                            <div>
+                                <div>Commercial rights</div>
+                                <div className="text-xs text-gray-400">
+                                    Use anywhere, no fuss
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
