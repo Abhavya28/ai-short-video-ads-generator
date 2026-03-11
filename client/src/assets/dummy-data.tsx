@@ -3,18 +3,18 @@ import { UploadIcon, VideoIcon, ZapIcon } from 'lucide-react';
 export const featuresData = [
     {
         icon: <UploadIcon className="w-6 h-6" />,
-        title: 'Smart Upload',
-        desc: 'Drag & drop your assets. We auto-optimize formats and sizes.'
+        title: 'Smart Asset Upload',
+        desc: 'Drag & drop your images or clips. Our AI auto-formats and optimizes them for perfect results.'
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Instant Generation',
-        desc: 'Optimized models deliver output in seconds with great fidelity.'
+        title: 'Instant AI Generation',
+        desc: 'Generate high-quality short videos in seconds using our cutting-edge AI models.'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
-        title: 'Video Synthesis',
-        desc: 'Bring product shots to life with short-form, social-ready videos.'
+        title: 'Social-Ready Videos',
+        desc: 'Turn product images into engaging, scroll-stopping videos for Instagram, YouTube & more.'
     }
 ];
 
@@ -40,10 +40,10 @@ export const plansData = [
         desc: 'Creators & small teams.',
         credits: 80,
         features: [
-            '80 Credits', 
-            'HD quality', 
-            'No watermark', 
-            'Video generation', 
+            '80 Credits',
+            'HD quality',
+            'No watermark',
+            'Video generation',
             'Priority support'
         ],
         popular: true
@@ -55,10 +55,10 @@ export const plansData = [
         desc: 'Scale across teams and agencies.',
         credits: 300,
         features: [
-            '300 Credits', 
-            'FHD quality', 
-            'No watermark', 
-            'Fast generation speed', 
+            '300 Credits',
+            'FHD quality',
+            'No watermark',
+            'Fast generation speed',
             'Chat + Email support'
         ]
     }

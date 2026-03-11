@@ -31,7 +31,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-black/70"></div>
 
                 {/* content */}
-                <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-16 mt-16">
+                <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-16 mt-16 animate-fadeUp">
 
                     {/* Community badge */}
                     <div className="flex items-center justify-center gap-3 p-1.5 pr-4 rounded-full border border-white/10 bg-white/10 mb-6 w-fit mx-auto">
